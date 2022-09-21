@@ -1,0 +1,108 @@
+/* Tess Luba - May2022 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    text-align: center;
+    margin: 2.5%;
+    background-image: url("Images/AIM-Travel-Header-1.jpg");
+    background-size: cover;
+    height: 650px;
+}
+header h2 {
+    padding: 1%;
+    color: #f2682c;
+}
+header h6 {
+    color: #f2682c;
+}
+.carousel { 
+    width:360px; 
+    height:260px; 
+    margin: auto;
+    margin-bottom: 2%;
+}
+main p {
+ margin: 5% 15%;
+ font-size: 150%;
+}
+nav {
+    text-align: center;
+}
+nav li {
+	display: inline-block;
+	list-style-type: none;
+    
+}	
+
+h3{
+    color: #90bdc6;
+}
+h4{
+    color: #badfe6;
+}
+.nav-link   {
+    color:white;
+}
+nav a { 
+	border-radius: 10px;
+    background-color: #b2b2bb;
+    
+}
+.nav-link:hover {
+	animation-name: mymove4;
+    animation-duration: 5s;
+    color: white;
+}
+
+.container {
+    padding: 50px;
+}
+
+h3, h4 {
+    text-align: center;
+}
+#title {
+    animation-name: mymove2;
+    animation-duration: 4s, 20s, 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal, normal, alternate;
+}
+
+@keyframes mymove2 {
+    0%{font-family: 'Courier New', Courier, monospace;}
+    20%{font-family: 'Lucida Handwriting', cursive;}
+    40%{font-family: 'Times New Roman', Times, serif;}
+    60%{font-family: Copperplate, fantasy;}
+    80%{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    100%{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+}     
+@keyframes mymove4 {
+    0%{background-color: #e2f2f2;}
+    15%{background-color: #3f4d5c;}
+    30%{background-color: #50acb6;}
+    45%{background-color: #f2682c;}
+    60%{background-color: #badfe6;}
+    75%{background-color:#90bdc6;}
+    90%{background-color: #797d88;}
+    100%{background-color: #f3b091;}
+} 
+
+
+
+
+#credit p {
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 1%;
+    color: #f2682c;
+    background-color: #e2f2f2;
+    font-weight: bold;
+}
